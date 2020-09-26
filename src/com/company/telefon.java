@@ -17,18 +17,22 @@ class telefon
 
     public String printtel()
     {
+
         return ("Marca: " + this.marca + ", anul " + this.anul + ", Pretul: " + this.pret);
     }
 
     public void setMarca(String marca) {
-        this.marca = marca;
+
+         this.marca = marca;
     }
 
     public void setAnul(int anul) {
-        this.anul = anul;
+
+         this.anul = anul;
     }
 
     public void setPret(int pret) {
-        this.pret = pret;
+
+         this.pret = pret;
     }
 }

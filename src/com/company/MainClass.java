@@ -19,14 +19,17 @@ class Student
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public void setAns(int ans) {
+
         this.ans = ans;
     }
 
     public void setFacultate(String facultate) {
+
         this.facultate = facultate;
     }
 }
